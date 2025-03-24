@@ -1,9 +1,14 @@
 def max_value(numbers):
-    max = numbers[0]
+    """ This function returns the largest number
+        in the list.
+    """
+    max_number = numbers[0]
+
     for num in numbers:
-        if num > max:
-            max = num
-    return max
+        if num > max_number:
+            max_number = num
+
+    return max_number
 
 
 if __name__ == "__main__":
